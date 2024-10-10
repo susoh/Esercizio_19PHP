@@ -11,7 +11,7 @@
         $risposte = array("Venere", "Terra", "Marte", "Mercurio", "Giove");
         echo "<p><b><i>" . $domanda . "</b></i></p>";
         foreach ($risposte as $key) {
-            echo "<input type='radio' name='risposte' value='" . $key . "'>" . "<label> " . $key . " </label>";
+            echo "<input type='radio' name='risposte' value='" . $key . "'>" . "<label> " . $key . " </label> <br>";
         }
     ?>
 </body>
